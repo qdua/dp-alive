@@ -1,0 +1,21 @@
+:root{
+    --dark: black; 
+}
+*, html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    align-items: center;
+    background: var(--dark);
+    display: flex; 
+    height: 100vh;
+    justify-content: center;
+}
+main {
+    background: url(aliv.jpg) no-repeat 24px -28px; 
+    background-size: 94% auto;
+    height: 300px;
+    width: 400px;
+}

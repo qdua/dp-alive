@@ -35,6 +35,7 @@ function setup() {
 }
 
 function draw() {
+    background(0);
     white.r = map(mouseX, 0, 400, 255, aquamarine.r)
     white.g = map(mouseX, 0, 400, 255, aquamarine.g)
     white.b = map(mouseX, 0, 400, 255, aquamarine.b)
